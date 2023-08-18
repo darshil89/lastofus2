@@ -1,9 +1,9 @@
-
-
+import IntroPage from "@/components/introPage/page"
+import { Fragment } from "react"
 export default function Home() {
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+   <Fragment>
+      <IntroPage/>
+   </Fragment>
   )
 }
